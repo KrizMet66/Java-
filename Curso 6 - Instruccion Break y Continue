@@ -1,0 +1,20 @@
+class Main{
+
+public static void main(String[] args){
+
+for (int i=0;i<=10;i++){ //Inicializamos un contador
+
+System.out.println("Aun estas en el ciclo: "+i); //Imprimimos el ciclo
+if(i == 4) //Instruccion de comparacion
+{
+break; //Si se cumple la Instruccion se detiene el proceso ("continue" sirve para terminar el contador pero a la vez 										omitiendo la Instruccion especifica)
+}
+System.out.println("El valor de i es "+1); //Imprime mensaje del contador
+
+}
+System.out.print("Has dejado el ciclo for"); //Mensaje que muestra al ejecutar la Instruccion cumplida
+
+
+}
+
+}
