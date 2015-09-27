@@ -1,0 +1,56 @@
+
+import paquete.Pelota;  //nombre de la carpeta.nombre de la clase
+
+
+class Main{
+
+public static void main(String[] args)
+{
+
+Pelota p0 = new Pelota(300,300); //Creacion de los objetos
+
+Pelota p1 = new Pelota(500,500);
+
+System.out.println("La pelota pesa: "+p.obtenerPeso); //Impresion de un mensaje modificando los valores del metodo
+
+}
+
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////// El siguiente codigo es una clase fuera del main
+
+
+public class Pelota{
+
+float radio;		//Declaracion de las variables
+float peso;
+public Pelota()		//Asignacion de valores 
+{
+radio=100;
+peso = 250;
+}
+public Pelota(float radio,float peso)	//constructor que se utiliza para verificar que la informacion es verdadera
+{
+this.radio=radio;
+this.peso=peso;
+}					//Termina el constructor
+
+public float obtenerRadio()		//metodo para obtener el radio
+{
+return radio;
+}
+public float obtenerPeso()
+{
+return peso;
+}
+public void patearPelota()		//Metodo sin valor solo regresa una secuencia de acciones
+{
+System.out.println("Haz pateado la pelota");
+}
+public void atraparPelota()
+{
+System.out.println("Haz atrapado la pelota");
+}
+}
