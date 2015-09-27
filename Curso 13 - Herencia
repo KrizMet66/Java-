@@ -1,0 +1,49 @@
+
+public void estado()
+{
+if(this.encendido == true)
+System.out.println("El carro esta encendido")
+else
+System.out.println("El carro esta apagado");
+}
+}
+
+class carroBWM extends Carro
+{
+public CarroBWM()
+{
+this.modelo="BWM";
+}
+public void turbo()
+{
+System.out.println("Acabas de viajar a 100 millas por hora!");
+}
+}
+
+class CarroToyota extends Carro //extends hace referencia a la herencia de la clase carro para obtener sus atributos
+{
+	public CarroToyota(){
+	modelo = "Toyota";
+}
+public String modelo()
+{
+return this.modelo;
+}
+}
+/////////////////////////////////////////////////////////////////////////
+
+package paquete;
+import paquete.Carro;
+class Main{
+
+public static void main(String[] args) {
+
+CarroBMW c; //Aqui se puede cambiar por toyota
+c = new CarroBMW();
+c.apagar();
+c.encender();
+c.turbo();
+
+
+}
+}
