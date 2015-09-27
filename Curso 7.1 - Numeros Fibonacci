@@ -1,0 +1,22 @@
+class Main{
+
+public static void main(String[] args){
+
+int x = 1;		//Declaracion de Variables
+int anterior = 0;
+int temp;
+
+while(true) 	//Inicia el metodo while 
+{
+System.out.print(x); 
+temp = x;
+x = x + anterior;
+anterior = temp; //Ultima linea repite proceso
+
+if( x> 100) //Condiciona que si x es mayor a 100 termine el proceso
+{break;}
+
+}
+
+
+}
