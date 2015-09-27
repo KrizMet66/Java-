@@ -1,0 +1,31 @@
+class Main{
+
+public static void main(String[] args){
+
+//Solo se aceptan valores char y int
+
+char x; //Declaracion de Variables
+x = ´B´;
+switch(x)  //Inicia Menu
+{
+case ´a´: //si x=a 
+{
+System.out.println("Esta es la opcion 0"); //Imprime este mensaje
+break;		//Detiene la ejecucion del programa si se cumple la condicion
+}
+case ´b´:  //si x=b 
+{
+System.out.println("Esta es la opcion 1");  //Imprime este mensaje
+break;
+
+}
+default: //Opcion alternativa en caso de no existir una comparacion verdadera
+{
+
+System.out.println("Esta es la opcion por defecto en caso de no existir relacion");
+}
+
+}
+
+
+}
