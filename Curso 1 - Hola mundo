@@ -1,0 +1,22 @@
+
+package Hola;
+
+
+
+   public class Main {
+   
+	static java.util.Scanner in; 
+
+	public static void main(String[] args) {
+	
+		System.out.println("Ingrese el numero de veces a repetir Hola Mundo");
+		
+		in = new java.util.Scanner(System.in);
+		
+		int n = Integer.parseInt(in.nextLine());
+		for (int i = 0; i < n; i++) {
+			System.out.println("Hola mundo.");
+		}
+	}
+
+}
