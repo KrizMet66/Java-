@@ -1,0 +1,24 @@
+class Main{
+
+public static void main(String[] args){
+
+boolean cond=true; //Declaracion de variables
+int x=0; 
+
+while(cond){ //Metodo while parecido al if pero este tiene mas funciones
+
+	System.out.println("El valor de X es: "+x);
+	x = (x*2) +2; //Ejecuta el ciclo repitiendo la operacion
+
+
+
+if(x>8){
+
+	
+	cond=false; //Detiene el proceso en caso de que x sea mayor a 8
+
+}
+
+}
+
+}
