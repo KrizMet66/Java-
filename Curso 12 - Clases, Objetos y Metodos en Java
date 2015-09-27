@@ -1,0 +1,134 @@
+
+import paquete.Pelota;  //nombre de la carpeta.nombre de la clase
+
+
+class Main{
+
+public static void main(String[] args)
+{
+
+
+
+Pelota p1 = new Pelota(500,500); //Creacion de los objetos
+
+Carro c;
+c = new Carro();
+c.estado();
+c.encender();
+c.estado();
+
+
+
+float x = p.obtenerRadio(); //Impresion de un mensaje modificando los valores del metodo
+p.atraparPelota();
+
+}
+
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+float radio;
+float peso;
+
+//Constructores
+
+public Pelota(){
+
+radio=100;
+peso=250;
+
+
+}
+
+public Pelota(float radio, float peso){
+
+this.radio=radio;
+this.peso=peso;
+
+}
+
+// Termina constructores
+
+
+
+// Metodos
+
+public float obtenerRadio(){
+
+return this.radio;
+
+}
+
+public float obtenerPeso(){
+
+return this.peso;
+
+}
+
+public void patearPelota(){
+
+
+System.out.println("Haz pateado la pelota");
+
+}
+
+public void atraparPelota(){
+
+System.out.println("Haz atrapado la pelota");
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+public class Carro{
+
+double peso;
+double altura;
+double ancho;
+double largo;
+int numeroPuertas;
+boolean encendido=false;
+String modelo;
+
+public Carro(){
+
+this.peso = 1000;
+this.altura = 1.90;
+this.ancho = 4;
+
+}
+
+public double obterPeso(){
+
+return.this.peso;
+
+}
+
+public void encender (){
+
+this.encendido= true;
+System.out.println("El carro esta encendido");
+
+
+
+}
+
+public void apagar(){
+
+this.encendido = false;
+System.out.println("El carro esta apagado");
+}
+
+public void estado(){
+
+if(this.encendido == true);
+System.out.println("El carro esta encendido");
+else
+System.out.println("El carro esta apagado");
+}
+
+}
+
+
