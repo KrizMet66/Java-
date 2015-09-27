@@ -1,0 +1,31 @@
+package practica;
+
+
+   import java.util.Scanner;
+public class Practica {
+
+
+   
+    public static void main(String[] args) { //Clase principal
+       
+       Practica llamar=new Practica(); 
+        llamar.ecuacion(); 
+        
+        
+    }
+    
+    
+    
+    public void ecuacion(){
+        
+       Scanner leer= new Scanner(System.in); //Metodo para crear un lector
+       
+       
+        
+        System.out.println("Cuanto es 2 + 2"); //Imprimimos mensaje
+        int dato = leer.nextInt(); //leemos dato de tipo entero
+        System.out.println("Tu me respondiste: "+dato);
+    }
+    
+    
+}
