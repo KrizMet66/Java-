@@ -1,0 +1,34 @@
+class Main{
+
+public static void main(String[] args){
+
+int x[] []; 		//Declaracion de una variable bidimencional
+x = new int[3] [3];	//Asignacion de columnas y filas
+
+x[0] [0] = 1;		//Declaracion de cada valor
+x[0] [1] = 2;
+x[0] [2] = 3;
+x[1] [0] = 4;
+x[1] [1] = 5;
+x[1] [2] = 6;
+x[2] [0] = 7;
+x[2] [1] = 8;
+x[2] [2] = 9;		//Fin de la matriz
+
+for(int i=0;i<3;i++)	//iniciamos un contador en i que termina en 3 y se incrementa en 1
+{
+for(int j=0;j<3;j++)	//Iniciamso un contador en j que termina en 3 y se incrementa en 1
+{
+System.out.println("x["+i+"]["+j+"] = "+x[i][j]); //Imprimimos los valores de i y j
+
+}
+
+}
+
+
+}
+
+
+
+
+}
