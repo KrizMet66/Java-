@@ -1,0 +1,15 @@
+class Main{
+
+public static void main(String[] args){
+
+for (int contador = 1;contador<=20;contador++) //El metodo for sirve para repetir un ciclo 
+{
+contador = contador*2; //Modificacion de la variable contador 
+
+System.out.println("El contador vale: "+contador); //Mensaje mas contentanacion del resultado
+}
+
+}
+
+
+}
