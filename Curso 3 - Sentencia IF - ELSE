@@ -1,0 +1,35 @@
+class Main{
+
+// Operadores Logicos: >, >=, <, <=, ==, ||, &&, !
+
+
+public static void main (String[] args){
+
+int var=6;       //Declaracion de las variables
+int var2 =10;
+boolean cond;
+
+
+if(!((var==6) && (var2>=5))) //Metodo que verifica si las condiciones se cumplen 
+{
+
+cond = true;  //Accion por Verdadero
+
+}else{
+
+cond = false;  //Accion po falso
+
+}
+
+if(cond){  //Utilizando el valor booleano podemos reverificar las condiciones
+
+System.out.println("Es real su valor") 
+
+}else{
+
+System.out.println("Es falso su valor")
+
+}
+
+//Nota: el signo ! cambia el valor al inverso de if en este caso como si fuera un else
+// y || asigna que si el primer valor no se cumple por lo menos el segundo debe ser verdadero para ejecutar la instruccion
