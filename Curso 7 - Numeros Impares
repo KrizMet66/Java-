@@ -1,0 +1,17 @@
+class Main{
+
+public static void main (String[] args){
+
+for(int i=0;i<=100;i++) //Indica que "i" inicia en 0 incrementa en 1 y se detiene en 100
+{
+if((i%2)!=0) //Indica que se dividira i entre dos y el residuo se imprimira exceptuando al cero
+{
+System.out.println(i);
+
+}
+
+}
+
+}
+
+}
